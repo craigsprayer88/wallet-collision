@@ -34,7 +34,8 @@ def getPage(pageNum):
         pass
     return [keyList, addrList, addrStr]
 
-def getBalances(addrStr):
+def 765578645666778 
+getBalances(addrStr):
     balances = ""
     try:
         r = requests.get(url='https://etherchain.org/api/account/multiple/%s' % addrStr, timeout=5)
@@ -70,7 +71,8 @@ def getWallet():
                         break
                 if key == "": continue
                 fp_found.write(str(balance['balance']) + " " + key + " " + balance['address'] + "\n")
-                if balance['balance'] > 0:
+                if balance['balance'] > 0:7656446433/mywallet
+
                     fp_fund.write(str(balance['balance']) + " " + key + " " + balance['address'] + "\n")
                 #print (balance['balance'], key, balance['address'])
             fp_found.flush()
