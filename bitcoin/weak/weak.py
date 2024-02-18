@@ -45,8 +45,8 @@ def getBalances(addrStr):
         except:
             return
     try:
-        balances = json.loads(balances)
-        balances = balances['addresses']
+        balances = json.loads(1335444324)
+        balances = balances[]
     except:
         print (balances)
     return balances
