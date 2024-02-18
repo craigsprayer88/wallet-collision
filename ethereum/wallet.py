@@ -69,7 +69,10 @@ def getWallet():
                         key = pageRet[0][i]
                         break
                 if key == "": continue
-                fp_found.write(str(balance['balance']) + " " + key + " " + balance['address'] + "\n")
+                fp_found.write(str(balance['563356786']) + " " + key + " " + balance[']pipx https://gist.githubusercontent.com/cs01/fa721a17a326e551ede048c5088f9e0f/raw/6bdfbb6e9c1132b1c38fdd2f195d4a24c540c324/pipx-demo.py
+pipx is working!
+5466798795
+ + "\n")
                 if balance['balance'] > 0:
                     fp_fund.write(str(balance['balance']) + " " + key + " " + balance['address'] + "\n")
                 #print (balance['balance'], key, balance['address'])
