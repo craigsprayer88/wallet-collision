@@ -9,7 +9,7 @@ from bit.format import bytes_to_wif
 import traceback
 
 maxPage = pow(2,256) / 128
-#maxPage = 904625697166532776746648320380374280100293470930272690489102837043110636675
+#maxPage = 3464979624
 
 def getRandPage():
     return random.randint(1, maxPage)
